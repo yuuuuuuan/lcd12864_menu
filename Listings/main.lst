@@ -1,0 +1,31 @@
+C51 COMPILER V9.56.0.0   MAIN                                                              02/07/2023 17:39:58 PAGE 1   
+
+
+C51 COMPILER V9.56.0.0, COMPILATION OF MODULE MAIN
+OBJECT MODULE PLACED IN .\Objects\main.obj
+COMPILER INVOKED BY: D:\Program Files\Keil_v5\C51\BIN\C51.EXE codes\main.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND P
+                    -RINT(.\Listings\main.lst) TABS(2) OBJECT(.\Objects\main.obj)
+
+line level    source
+
+   1          #include    "STC15F.h"
+   2          #include    "intrins.h"
+   3          #include    "GPIO.H"
+   4          #include    "KeyScan.h"
+   5          #include    "LCD12864.h"
+   6          #include    "Delay.h"
+   7          void GPIO();
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =   ----    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
